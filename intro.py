@@ -1,7 +1,7 @@
 %matplotlib inline
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn;
+import seaborn
 from sklearn.linear_model import LinearRegression
 from scipy import stats
 import pylab as pl
@@ -55,6 +55,8 @@ print(iris.target_names[result])
 print(iris.target_names)
 print(knn.predict_proba([X_pred,]))
 
+from fig_code import plot_iris_knn
 
+plot_iris_knn()
 
 
